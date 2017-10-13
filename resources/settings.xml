@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
-	<category label="Global">
-		<setting id="force-shutdown" type="bool" label="Force Shutdown" default="true"/>
-	</category>
+    <category label="Global">
+        <setting id="force-shutdown" type="bool" label="Force Shutdown" default="true"/>
+        <setting id="shutdown-delay" label="Shutdown delay" type="slider" option="int" range="0,1,30" default="5"/>
+    </category>
 </settings>
